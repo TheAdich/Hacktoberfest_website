@@ -31,6 +31,7 @@ async function countPullRequestsForUserAndRepo(username, repo, access_token, lab
   ]);
 
   if (mergedPullRequestsData) {
+    //console.log(mergedPullRequestsData);
     return [mergedPullRequestsData];
   }
 }
